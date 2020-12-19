@@ -1,0 +1,58 @@
+
+#videocontainer{
+    background-color: black;
+    height:85vh;
+    width:75vw;
+    overflow-y:scroll;
+}
+#audiocontainer{
+    background-color: white;
+    height:15vh;
+    border-right: 1px solid lightgray;
+}
+#chatcontainer{
+    background-color: white;
+    height:100vh; 
+   position: relative;
+}
+#chat_foot{
+   position:absolute;
+    bottom:0;
+}
+#ico_con{
+    color:#0d6efd;
+}
+#ico_par{
+    color:#0d6efd;
+}
+video{
+    height:200px;
+    width:200px;
+}
+#chat_header{
+    margin-top:5px;
+    
+}
+#message{
+    list-style: none;
+    text-align: left;
+}
+
+#audio_button_container{
+    
+    width:20vw;
+     height:10vh;
+    display:flex;
+    margin:0 auto;
+    padding:10px;
+    justify-content: space-between;
+
+}
+#ico_but{
+    
+    margin-top:auto; 
+    border-radius:50%;
+}
+#msg_container_div{
+    overflow:auto;
+}
